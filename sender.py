@@ -36,7 +36,6 @@ def main() -> None:
     ]
     for line in lines:
         print(line)
-
     if LOG_FILE:
         with open(LOG_FILE, 'w', encoding='utf-8') as f:
             f.write('\n'.join(lines) + '\n')
